@@ -1,4 +1,4 @@
-##plpt1
+##plot1
 #downlod data manually and save it into working directory
 #url sourse: "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 # unzip file
