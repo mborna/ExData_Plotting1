@@ -17,7 +17,6 @@ datetime <- strptime(paste(subsetData$Date, subsetData$Time, sep=" "), "%d/%m/%Y
 globalActivePower <- as.numeric(subsetData$Global_active_power)
 #define plotting device as PNG
 png("plot2.png", width=480, height=480)
-# plot histogram and define its properties(argumans)#
 ### scatter Plot datetime Vs. globalActivePower###
 plot(datetime, globalActivePower, type ="l",xlab = "", ylab="Global Active Power (kilowatts)")
 #close png device
